@@ -16,3 +16,39 @@ img {
   display: block;
   max-width: 100%;
 }
+
+#datetime-picker {
+  display: flex;
+  padding-left: 50px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-radius: 2px;
+}
+
+#button-start {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 30px;
+
+  font-weight: 700;
+  font-size: 26px;
+  background-color: yellow;
+}
+
+.timer {
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+
+ font-weight: 700;
+ font-size: 26px;
+ line-height: 1.2;
+ color: blue;
+}
+
